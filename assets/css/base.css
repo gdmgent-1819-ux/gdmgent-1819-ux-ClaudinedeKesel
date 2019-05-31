@@ -22,6 +22,7 @@ main {
 footer {
   font-size: 18px;
   color: var(--c-quinary);
+  background-color: var(--c-secondary);
 
   display: flex;
   justify-content: space-between;

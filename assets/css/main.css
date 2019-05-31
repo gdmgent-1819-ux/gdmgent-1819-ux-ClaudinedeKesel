@@ -96,10 +96,6 @@ li:hover {
     z-index: -1;
 }
 
-.btn-reserve {
-    background-color: var(--c-tertiary);
-}
-
 /* MAIN ARTICLE */
 .main-article {
     height: 470px;
@@ -133,7 +129,7 @@ li:hover {
 }
 
 /* ROW LINKS TO OTHER PAGES */
-h1 {
+a {
     color: var(--c-tertiary);
     text-decoration: none;
     font-size: 50px;
@@ -148,11 +144,8 @@ h1 {
     background-size: cover;
     font-size: 28px;
     background-position: center;
-}
-
-.link h1 {
+    padding: 96px;
     text-align: center;
-    margin-top: 60px;
 }
 
 .reserve {
@@ -171,18 +164,15 @@ h1 {
 /* NEW ON THE MENU */
 .new-food {
     height: 325px;
-
 }
 
 .new {
     background-size: cover;
     font-size: 28px;
     background-position: center;
-}
-
-.new h1 {
     text-align: center;
-    margin-top: 60px;
+    padding: 77px 0px;
+    display: inline-block;
 }
 
 .new1 {
