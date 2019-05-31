@@ -3,7 +3,7 @@
     font-weight: 400;
     color: #333;
     margin: 1rem 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .sg-subtitle {
@@ -13,5 +13,138 @@
     color: #666;
     text-transform: uppercase;
     margin: 2rem 0 .5rem 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+
+/*KLEUREN*/
+.colors-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.color {
+    padding: 50px;
+    border-radius: 3px;
+}
+
+.color1 {
+    background-color: var(--c-primary);
+}
+
+.color2 {
+    background-color: var(--c-secondary);
+    border: 1px solid var(--c-tertiary);
+}
+
+.color3 {
+    background-color: var(--c-tertiary);
+    color: var(--c-secondary);
+}
+
+.color4 {
+    background-color: var(--c-quaternary);
+}
+
+.color5 {
+    background-color: var(--c-quinary);
+    color: var(--c-secondary);
+}
+
+/*FONTS*/
+.font {
+    font-size: 20px;
+}
+
+.font1 {
+    font-family: var(--t-primary);
+    font-weight: bolder;
+}
+
+.font2 {
+    font-family: var(--t-primary);
+    font-weight: bold;
+}
+
+.font3 {
+    font-family: var(--t-primary);
+}
+
+.font4 {
+    font-family: var(--t-secondary)
+}
+
+
+
+
+
+/*COMPONENTS*/
+.navigation {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 13px;
+    padding-top: 13px
+}
+
+.order-menu {
+    background-color: var(--c-primary);
+    padding: 0px 157px 20px 46px;
+
+}
+
+.menu-order {
+    display: flex;
+    justify-content: space-between;
+}
+
+select {
+    width: 139.58px;
+    height: 29px;
+    font-size: 10px;
+    color: var(--c-quinary);
+    border: none;
+    padding-left: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 1px;
+}
+
+.menu-order .fa-angle-down {
+    font-size: 25px;
+    background-color: var(--c-quaternary);
+    padding: 2px 6.5px;
+}
+
+.menu-order div {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.fa-cart-plus {
+    font-size: 29px;
+}
+
+.student {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--c-tertiary);
+    color: var(--c-primary);
+    font-weight: bolder;
+    font-size: 16px;
+    text-transform: uppercase;
+    height: 29px;
+    padding: 0 10px;
+}
+
+.student p {
+    margin-left: 10px;
 }

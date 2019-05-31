@@ -2,8 +2,28 @@ html {
   height: 100%;
 }
 
+header {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
 body {
-  font-family: var(--t-body);
   height: inherit;
-  margin: 0;
+  margin: 0px 118px;
+  background-color: var(--c-secondary);
+  color: var(--c-tertiary);
+  font-family: var(--t-primary);
+}
+
+main {
+  font-weight: bolder;
+}
+
+footer {
+  font-size: 18px;
+  color: var(--c-quinary);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,700,900&display=swap');
 
 :root {
   /**
    * Colour palette
    */
-  --c-primary: hsl(190, 100%, 40%);
+  --c-blue: hsla(210, 64%, 63%, 1);
+  --c-blue-transparant: hsla(210, 64%, 63%, 0.8);
+  --c-blue-dark: #253D53;
+  --c-black: rgba(0, 0, 0, 1);
+  --c-white: rgba(255, 255, 255, 1);
+  --c-grey-light: #DDDDDD;
+
+  --c-primary: var(--c-blue);
+  --c-secondary: var(--c-black);
+  --c-tertiary: var(--c-white);
+  --c-quaternary: var(--c-blue-dark);
+  --c-quinary: var(--c-grey-light);
+
 
   /**
    * Layout
@@ -13,14 +27,13 @@
   /**
    * Typography
    */
-  --t-primary: Arial, Helvetica, sans-serif;
-  --t-secondary: Arial, Helvetica, sans-serif;
-  --t-tertiary: monospace;
+  --t-primary: 'Roboto', sans-serif;
+  --t-secondary: 'Righteous', cursive;
+  --t-tertiary: ;
+
 
   --t-headline: var(--t-primary);
   --t-subtitle: var(--t-primary);
   --t-body: var(--t-secondary);
   --t-code: var(--t-tertiary);
 }
-
-

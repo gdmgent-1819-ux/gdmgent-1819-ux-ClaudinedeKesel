@@ -7,3 +7,198 @@
 @import url('components/buttons.css');
 @import url('components/forms.css');
 
+/* HEADING */
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.lan {
+    display: flex;
+    align-items: center;
+    padding-right: 23.71px;
+}
+
+.fa-shopping-cart {
+    font-size: 22.48px;
+}
+
+.badge {
+    padding-left: 100%;
+    padding-right: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    height: 21.29px;
+    width: 21.29px;
+}
+
+#lblCartCount {
+    font-size: 14px;
+    background: var(--c-blue-transparant);
+    color: var(--c-tertiary);
+    padding: 3px 6.29px 2.29px 7px;
+    vertical-align: 13px;
+    margin-left: -15px;
+}
+
+/* NAVIGATION */
+.line {
+    height: 1px;
+    background-color: var(--c-tertiary);
+    margin: 0px -118px;
+
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 23.69px 0px;
+}
+
+.navigation img {
+    width: 190.85px;
+    height: 69.39px;
+}
+
+.nav {
+    display: flex;
+    text-transform: uppercase;
+
+}
+
+.nav li {
+    list-style: none;
+    margin-right: 71px;
+    color: var(--c-primary);
+}
+
+.nav li:first-child {
+    color: var(--c-tertiary);
+    border-bottom: solid 3px var(--c-tertiary);
+}
+
+li:hover {
+    color: var(--c-tertiary);
+}
+
+.box-bg {
+    height: 37.5px;
+    width: 120px;
+    background-color: var(--c-tertiary);
+    border: solid 3px var(--c-primary);
+
+    position: absolute;
+    right: 167px;
+    top: 98px;
+    z-index: -1;
+}
+
+.btn-reserve {
+    background-color: var(--c-tertiary);
+}
+
+/* MAIN ARTICLE */
+.main-article {
+    height: 470px;
+}
+
+.mainburger {
+    height: 447px;
+    opacity: 0.8;
+}
+
+.text-article {
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.logo {
+    width: 166.26px;
+    height: 47.09px;
+}
+
+/* ROW BLUE */
+.col.blue {
+    height: 94px;
+    background-color: var(--c-primary);
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ROW LINKS TO OTHER PAGES */
+h1 {
+    color: var(--c-tertiary);
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.pages {
+    height: 273px;
+}
+
+.link {
+    background-size: cover;
+    font-size: 28px;
+    background-position: center;
+}
+
+.link h1 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.reserve {
+    background-image: url(../images/andrew-seaman-611432-unsplash.png);
+}
+
+.deals {
+    background-image: url(../images/dan-gold-105699-unsplash.png);
+}
+
+.menu {
+    background-image: url(../images/mae-mu-1378584-unsplash.png);
+}
+
+
+/* NEW ON THE MENU */
+.new-food {
+    height: 325px;
+
+}
+
+.new {
+    background-size: cover;
+    font-size: 28px;
+    background-position: center;
+}
+
+.new h1 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.new1 {
+    background-image: url(../images/burrito-chicken-close-up-461198.png);
+}
+
+.new2 {
+    background-image: url(../images/drink-food-glass-103566.png);
+    background-position: center;
+}
+
+/* FOOTER */
+.media {
+    font-size: 25px;
+}
+
+footer p {
+    font-weight: bold;
+}
